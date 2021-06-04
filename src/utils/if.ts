@@ -1,0 +1,1 @@
+export const if$ = <T1, T2>(is: boolean, x: T1, y: T2) => is ? x : y;

@@ -1,0 +1,1 @@
+export const odd = (t: number) => !!(t % 2);
