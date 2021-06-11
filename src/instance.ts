@@ -1,0 +1,1 @@
+export const instance = (c: any, x: any) => x instanceof c;

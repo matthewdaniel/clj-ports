@@ -44,7 +44,7 @@ export function cond<T0_1 extends boolean, T1_1 , T0_2 extends boolean, T1_2 , T
 export function cond(...args: any) {
     // changes here nead to be mirrored in cond
     try {
-        return condp(i => i as any, null, ...args);
+        return i('condp', identity, null, ...args);
     } catch (e) {
         if (e instanceof IllegalArgumentException) return null;
         throw e;
