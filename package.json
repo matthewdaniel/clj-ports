@@ -1,6 +1,6 @@
 {
   "name": "clj-ports",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ports of common clojure functions",
   "main": "dist/index.js",
   "scripts": {
