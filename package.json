@@ -1,9 +1,10 @@
 {
   "name": "clj-ports",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "description": "ports of common clojure functions",
   "main": "dist/index.js",
   "scripts": {
+    "publish": "yarn compile && npm publish",
     "compile": "tsc",
     "w": "tsc -w",
     "test": "jest",
@@ -14,8 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "@types/jest": "^26.0.23",
-    "jest": "^27.0.3",
-    "ts-jest": "^27.0.1",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
     "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
   }

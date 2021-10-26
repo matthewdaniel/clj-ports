@@ -1,0 +1,1 @@
+export const get = <T, O>(prop: keyof O, obj: O, defaultVal?: T) => obj[prop] ?? defaultVal;

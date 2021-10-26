@@ -1,19 +1,14 @@
-import { condp } from './condp';
-import { cond } from './cond';
-import { case$ } from './case$';
-import { even } from './utils/even';
-import { odd } from './utils/odd';
-import { if$ } from './utils/if';
-import { identity } from './utils/identity';
-import { when } from './when';
-import { instance } from './instance';
-
-console.log('yo-here', '\n'.repeat(3), { condp, cond }, typeof cond)
-export const fns = {
-    cond, condp, identity, when,
-    "case": case$,
-    "even?": even,
-    "odd?": odd,
-    "if": if$,
-    "instance?": instance,
-}
+export { condp } from './condp';
+export { cond } from './cond';
+export { case$ } from './case$';
+export { even } from './utils/even';
+export { odd } from './utils/odd';
+export { if$ } from './utils/if';
+export { identity } from './utils/identity';
+export { when } from './when';
+export { instance } from './instance';
+export { dissoc } from './dissoc';
+export { dissocIn } from './dissocIn';
+export { assoc } from './assoc';
+export { assocIn } from './assocIn';
+export { pipe } from './pipe';

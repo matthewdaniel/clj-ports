@@ -1,1 +1,1 @@
-export const even = (t: number) => !(t % 2)
+export const even = (t: number) => !(t % 2);

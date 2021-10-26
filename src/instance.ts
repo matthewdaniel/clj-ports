@@ -1,1 +1,1 @@
-export const instance = (c: any, x: any) => x instanceof c;
+export const instance = (c: any, x: any): x is typeof c => x instanceof c;
