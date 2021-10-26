@@ -9,6 +9,8 @@ export { when } from './when';
 export { instance } from './instance';
 export { dissoc } from './dissoc';
 export { dissocIn } from './dissocIn';
+export { update } from './update';
+export { updateIn } from './updateIn';
 export { assoc } from './assoc';
 export { assocIn } from './assocIn';
 export { pipe } from './pipe';
