@@ -1,8 +1,14 @@
 {
   "name": "clj-ports",
-  "version": "0.0.12",
+  "version": "0.0.16",
   "description": "ports of common clojure functions",
   "main": "dist/index.js",
+  "keywords": ["functional", "clojure", "utils", "fp", "typescript"],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewdaniel/clj-ports"
+  },
   "scripts": {
     "publish": "yarn compile && npm publish",
     "compile": "tsc",
@@ -13,7 +19,7 @@
   "author": "Matt Meisberger",
   "types": "dist/index.d.ts",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@types/jest": "^26.0.23",
     "jest": "^27.0.4",
     "ts-jest": "^27.0.3",
